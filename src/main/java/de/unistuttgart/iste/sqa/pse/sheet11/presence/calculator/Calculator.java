@@ -48,7 +48,7 @@ public interface Calculator {
 	 * @return the quotient
 	 * @throws ArithmeticException      if {@code divisor} is zero
 	 * @throws IllegalArgumentException if {@code divisor} or {@code dividend} is
-	 *                                  {@link Integer#MAX_VALUE}
+	 *                                  {@link Integer#MIN_VALUE}
 	 */
 	public int /*@ pure @*/ divide(final int dividend, final int divisor);
 
